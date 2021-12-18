@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Spotify clone</title>
+    <link
+      rel="stylesheet"
+      href="path/to/font-awesome/css/font-awesome.min.css"
+    />
+    <link
+      href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <nav>
+      <ul>
+        <li class="brand"><img src="logo.png" alt="" />Spotify</li>
+        <li>Home</li>
+        <br />
+        <li>About</li>
+      </ul>
+    </nav>
+
+    <div class="container">
+      <div class="songlist">
+        <h1>One Of My Favourites - No Copyright Songs</h1>
+
+        <div class="songItemContainer">
+          <div class="songItem">
+            <img src="/Spotify Clone/covers/10.jpg" alt="1" />
+            <span>Let Me Love You </span>
+            <span class="songlistplay">
+              <span class="timestamp">
+                05:34 <i class="fa fa-play-circle" style="font-size: 23px"></i>
+              </span>
+            </span>
+          </div>
+          <div class="songItem">
+            <img src="/Spotify Clone/covers/1.jpg" alt="1" />
+            <span>Rewrite The Stars </span>
+            <span class="songlistplay">
+              <span class="timestamp">
+                05:34 <i class="fa fa-play-circle" style="font-size: 23px"></i>
+              </span>
+            </span>
+          </div>
+          <div class="songItem">
+            <img src="/Spotify Clone/covers/2.jpg" alt="1" />
+            <span>Mikrokosmos </span>
+            <span class="songlistplay">
+              <span class="timestamp">
+                05:34 <i class="fa fa-play-circle" style="font-size: 23px"></i>
+              </span>
+            </span>
+          </div>
+          <div class="songItem">
+            <img src="/Spotify Clone/covers/3.jpg" alt="1" />
+            <span>We Don't talk Anymore</span>
+            <span class="songlistplay">
+              <span class="timestamp">
+                05:34 <i class="fa fa-play-circle" style="font-size: 23px"></i>
+              </span>
+            </span>
+          </div>
+          <div class="songItem">
+            <img src="/Spotify Clone/covers/4.jpg" alt="1" />
+            <span>Groupie </span>
+            <span class="songlistplay">
+              <span class="timestamp">
+                05:34 <i class="fa fa-play-circle" style="font-size: 23px"></i>
+              </span>
+            </span>
+          </div>
+          <div class="songItem">
+            <img src="/Spotify Clone/covers/5.jpg" alt="1" />
+            <span>So What</span>
+            <span class="songlistplay">
+              <span class="timestamp">
+                05:34 <i class="fa fa-play-circle" style="font-size: 23px"></i>
+              </span>
+            </span>
+          </div>
+          <div class="songItem">
+            <img src="/Spotify Clone/covers/7.jpg" alt="1" />
+            <span>Fire</span>
+            <span class="songlistplay">
+              <span class="timestamp">
+                05:34 <i class="fa fa-play-circle" style="font-size: 23px"></i>
+              </span>
+            </span>
+          </div>
+        </div>
+      </div>
+      <div class="songBanner"></div>
+    </div>
+
+    <div class="bottom">
+      <input type="range" name="range" id="myProgressBar" min="0" max="100" />
+      <h5>Let Me Love You</h5>
+      <div class="icons">
+        <!---font awsome icons-->
+        <img
+          src="./step-backward-solid.svg"
+          alt=""
+          style="height: 35px; width: 35px"
+        />
+
+        <img
+          src="./play-circle-regular.svg"
+          alt=""
+          style="height: 35px; width: 35px"
+          id="masterPlay"
+        />
+        <img
+          src="./step-forward-solid.svg"
+          alt=""
+          style="height: 35px; width: 35px"
+        />
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,100 @@
+@import url("https://fonts.googleapis.com/css2?family=Andada+Pro:ital,wght@1,400;1,500;1,800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Andada+Pro:ital,wght@1,400;1,500;1,800&family=Varela+Round&display=swap");
+body {
+  background-color: rgb(219, 219, 184);
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+nav {
+  font-family: "Andada Pro", serif;
+}
+nav ul {
+  display: flex;
+  align-items: center;
+  list-style-type: none;
+  height: 70px;
+  background-color: black;
+  color: blanchedalmond;
+}
+nav ul li {
+  padding: 0 15px;
+}
+.brand img {
+  width: 70px;
+  padding: 0 8px;
+}
+.brand {
+  display: flex;
+  align-items: center;
+  font-weight: bolder;
+  font-size: 2.5rem;
+}
+.container {
+  min-height: 66vh;
+  background-color: black;
+  color: white;
+  font-family: "Andada Pro", serif;
+  display: flex;
+  width: 75%;
+  margin: 20px auto;
+  border-radius: 8px;
+  padding: 22px;
+  background-image: url(bg.jpg);
+  background-repeat: no-repeat;
+  /* background-size: auto; */
+  background-position: center;
+  background-size: cover;
+}
+.bottom {
+  position: fixed;
+  width: 100%;
+  height: 90px;
+  background-color: black;
+  color: white;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  
+}
+.songItem {
+  height: 50px;
+  display: flex;
+  background-color: rgb(236, 235, 232);
+  width: 65%;
+  color: black;
+  margin: 12px 0;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 32px;
+}
+.songItem img {
+  width: 50px;
+  margin: 0 23px;
+  border-radius: 32px;
+}
+
+.timestamp {
+  margin: 0 23px;
+}
+.timestamp img {
+  cursor: pointer;
+}
+.icons {
+  margin-bottom: 10px;
+}
+
+.icons img {
+  cursor: pointer;
+  padding-right: 15px;
+  margin: 5px;
+}
+#myProgressBar {
+  width: 75%;
+  margin-top: 10px;
+  padding: 5px;
+  cursor: pointer;
+}
